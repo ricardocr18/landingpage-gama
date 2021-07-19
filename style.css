@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh; /* Aqui pego 100% da autura da tela */
+    width: 100%;   /* Aqui pego 100% da autura da tela */
+    display: flex;
+    justify-content: center;
+    /*align-items: center; */
+}
+.imgback img{
+    margin-top: 25px;
+    width: 550px;
+    height: 450px;
+} 
+
+.imgback p{
+    margin: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f62735;
+    display: flex;
+}
+
+.background-section-one{
+    background-color: #ffc300;
+    /* background-image: url(../assets/bg.jpg); */
+    background-attachment: fixed; /* Deixa a imagem fiza no fundo e os elementos html transitarem. Efeito parallax na tela */
+    background-size: cover; /* adota a largura */
+    background-repeat: no-repeat;
+}
+
+.background-section-two{
+    background-image: url(./img/1abg.jpg);    
+    background-attachment: fixed; /* Deixa a imagem fiza no fundo e os elementos html transitarem. Efeito parallax na tela */
+    background-size: cover; /* adota a largura */
+    background-repeat: no-repeat;
+}
+
+
+
+.flexBrinquedos {    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#texto p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.flexBrinquedos div{
+    padding: 5px;
+    border: 2px solid #000;
+    background-color: #ffc300;
+}
+
+.flexBrinquedos p{
+    margin-top: 10px;
+     color: #f62735;
+     text-align: center;   
+}
+
+.background-section-three{
+    background-image: url(./img/1abg.jpg);    
+    background-attachment: fixed; /* Deixa a imagem fiza no fundo e os elementos html transitarem. Efeito parallax na tela */
+    background-size: cover; /* adota a largura */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.card-container{
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#content h1{
+    color: #f62735;
+    padding-bottom: 20px;
+}
+
+form{
+        display: grid;
+}
+
+#dados { text-align: center;}
+ input{
+    
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    /* background: #00;    */
+ } 
+
+
+#botao{ text-align: center }
+    .botaoEnviar{
+    background-color: #f62735;
+    width: 250px;    
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2px;    
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+
+footer{
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    background-color:#f62735;
+    color: #fff;
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+.icones img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
