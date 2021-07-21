@@ -49,9 +49,10 @@ html{
 .flexBrinquedos {    
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-#texto p{
+.texto p{
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 40px;
@@ -94,12 +95,12 @@ html{
     
 }
 
-#content h1{
+.content h1{
     color: #f62735;
     padding-bottom: 20px;
 }
 
-form{
+.form{
         display: grid;
 }
 
@@ -147,7 +148,52 @@ footer p{
 }
 
 
+@media only screen and (max-width:678px){
+
+    .section-container{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .imgback img{
+        width: 100%;
+        height: auto;             
+    }
+
+    .imgback p{
+       font-size: 25px;
+       text-align: center;
+    }
+
+    .texto p{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+
+    .card-container{
+        width: 100%;
+        height: auto;
+
+    }
+
+    .background-section-three{
+        width: 100%;
+        height: auto;
+        
+
+    }
 
 
 
 
+
+
+
+  
+
+  
+
+
+}
